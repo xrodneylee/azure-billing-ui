@@ -2,7 +2,7 @@
   <div class="row h-100 justify-content-center align-items-center">
       <div class="card w-25" style="background-color:#212C3B">
           <div class="card-body">
-              <form action="/dashboard" method="post">
+              <form action="" method="post">
                   <div class="form-group">
                       <input type="text" class="form-control" name="username" placeholder="Username" style="background-color:#1C2531">
                   </div>
@@ -29,7 +29,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-html, body {
-  height: 100%;
-}
 </style>
