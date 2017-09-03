@@ -12,14 +12,12 @@ export default {
 
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap";
+@import "./assets/css/font-awesome.min.css";
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: white;
-  background-color: #131920;
-  // margin-top: 60px;
+  // text-align: center;
 }
 </style>
