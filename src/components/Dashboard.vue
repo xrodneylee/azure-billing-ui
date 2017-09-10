@@ -8,16 +8,15 @@
 </template>
 
 <script>
-import Navbar from './Navigation'
+import navbar from './Navigation'
 export default {
   name: 'dashboard',
   data () {
     return {
-      msg: ''
     }
   },
   components: {
-    Navbar
+    navbar
   }
 }
 </script>
@@ -26,8 +25,8 @@ export default {
 <style scoped>
 .page-container {
   position: absolute;
-  left: 0;
-  top: 0;
+  /* left: 0;
+  top: 0; */
   width: 100%;
   height: 100%;
   background-color: #131920;

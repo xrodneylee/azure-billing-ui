@@ -1,6 +1,6 @@
 <template>
     <div class="page-container">
-        <div class="row h-100 justify-content-center align-items-center">
+        <div class="row h-100 w-100 justify-content-center align-items-center">
             <div class="card w-25" style="background-color:#212C3B">
                 <div class="card-body">
                     <form action="" method="post">

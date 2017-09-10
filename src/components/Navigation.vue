@@ -1,10 +1,12 @@
 <template>
     <nav class="navbar" style="background-color:#212C3B">
-        <div class="container" >
-            <ul class="nav justify-content-end">
+        <div class="container">
+            <ul class="nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link fa fa-home fa-lg" aria-hidden="true" href="#" style="color:#cfd2da"></a>
                 </li>
+            </ul>
+            <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link fa fa-cogs fa-lg" aria-hidden="true" href="#" style="color:#cfd2da"></a>
                 </li>
