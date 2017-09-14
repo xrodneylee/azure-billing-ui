@@ -6,7 +6,6 @@
 
 <script>
 export default {
-  name: 'pie-chart',
   data () {
     return {
       msg: ''

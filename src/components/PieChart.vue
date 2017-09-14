@@ -1,16 +1,7 @@
 <template>
-    <div class="pieChart">
+    <div>
         <div class="card w-25" style="background-color:#212C3B">
             <div class="card-body">
-                <form action="" method="post">
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="username" placeholder="Username" style="background-color:#1C2531">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Password" style="background-color:#1C2531">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
             </div>
         </div>
     </div>
@@ -18,11 +9,10 @@
 
 <script>
 export default {
-    name: 'pie-chart',
-    data() {
-        return {
-        }
+  data () {
+    return {
     }
+  }
 }
 </script>
 

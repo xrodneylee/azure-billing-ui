@@ -1,22 +1,23 @@
 <template>
   <div class="page-container">
-    <navbar></navbar>
+    <navigation></navigation>
     <div class="container">
-      
+      <pie-chart></pie-chart>
     </div>
   </div>
 </template>
 
 <script>
-import navbar from './Navigation'
+import Navigation from './Navigation'
+import PieChart from './PieChart'
 export default {
-  name: 'dashboard',
   data () {
     return {
     }
   },
   components: {
-    navbar
+    Navigation,
+    PieChart
   }
 }
 </script>
