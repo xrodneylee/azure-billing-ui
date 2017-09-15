@@ -2,7 +2,10 @@
   <div class="page-container">
     <navigation></navigation>
     <div class="container">
-      <pie-chart></pie-chart>
+      <div class="row">
+        <pie-chart></pie-chart>
+        <bar-chart></bar-chart>
+      </div>
     </div>
   </div>
 </template>
@@ -10,6 +13,8 @@
 <script>
 import Navigation from './Navigation'
 import PieChart from './PieChart'
+import BarChart from './BarChart'
+
 export default {
   data () {
     return {
@@ -17,7 +22,8 @@ export default {
   },
   components: {
     Navigation,
-    PieChart
+    PieChart,
+    BarChart
   }
 }
 </script>

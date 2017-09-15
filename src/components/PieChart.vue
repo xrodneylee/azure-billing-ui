@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="card w-25 mt-2" style="background-color:#212C3B">
+    <div class="col-sm-4">
+        <div class="card mt-2 border-dark" style="background-color:#212C3B">
             <div class="card-body">
             </div>
         </div>

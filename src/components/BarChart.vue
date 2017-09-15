@@ -1,26 +1,22 @@
 <template>
-  <div class="page-container">
-    <navigation></navigation>
-    <div class="container">
+    <div class="col-sm-8">
+        <div class="card mt-2 border-dark" style="background-color:#212C3B">
+            <div class="card-body">
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
-import Navigation from './Navigation'
-
 export default {
   data () {
     return {
-      msg: ''
     }
-  },
-  components: {
-    Navigation
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 </style>
