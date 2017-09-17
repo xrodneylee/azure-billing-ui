@@ -18,7 +18,7 @@ export default new Router({
       component: Dashboard
     },
     {
-      path: '/Setting',
+      path: '/setting',
       component: Setting
     }
   ]

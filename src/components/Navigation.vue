@@ -3,12 +3,12 @@
         <div class="container">
             <ul class="nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link fa fa-home fa-lg" aria-hidden="true" href="#" style="color:#cfd2da"></a>
+                    <router-link :to="{ path: 'dashboard' }" class="nav-link fa fa-home fa-lg" aria-hidden="true" style="color:#cfd2da"></router-link>
                 </li>
             </ul>
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link fa fa-cogs fa-lg" aria-hidden="true" href="#" style="color:#cfd2da"></a>
+                    <router-link :to="{ path: 'setting' }" class="nav-link fa fa-cogs fa-lg" aria-hidden="true" style="color:#cfd2da"></router-link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fa fa-user-circle fa-lg" aria-hidden="true" href="#" style="color:#cfd2da"></a>

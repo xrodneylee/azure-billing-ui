@@ -20,4 +20,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;
 }
+.page-container {
+  position: absolute;
+  /* left: 0;
+  top: 0; */
+  width: 100%;
+  height: 100%;
+  background-color: #131920;
+}
 </style>
