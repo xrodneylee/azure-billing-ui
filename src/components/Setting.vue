@@ -2,7 +2,8 @@
   <div class="page-container">
     <navigation></navigation>
     <div class="container">
-      <button class="btn btn-outline-primary mt-3">新增</button>
+      <button class="btn btn-outline-primary mt-3" 
+      data-toggle="modal" data-target="#exampleModal" @click="showTenantModal = true">新增</button>
       <table class="table mt-2">
         <thead>
           <tr class="row">
@@ -26,21 +27,24 @@
           </tr>
         </tbody>
       </table>
+      <tenant-modal v-if="showTenantModal" @close="showTenantModal = false"></tenant-modal>
     </div>
   </div>
 </template>
 
 <script>
 import Navigation from './Navigation'
+import TenantModal from './TenantModal'
 
 export default {
   data () {
     return {
-      msg: ''
+      showTenantModal: false
     }
   },
   components: {
-    Navigation
+    Navigation,
+    TenantModal
   }
 }
 </script>
