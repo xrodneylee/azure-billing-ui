@@ -2,8 +2,20 @@
   <div class="page-container">
     <navigation></navigation>
     <div class="container">
-      <button class="btn btn-outline-primary mt-3" 
-      data-toggle="modal" data-target="#exampleModal" @click="showTenantModal = true">新增</button>
+      <!-- <button class="btn btn-outline-primary mt-3" 
+      data-toggle="modal" data-target="#exampleModal" @click="showTenantModal = true">新增</button> -->
+      <div class="form-row mt-3">
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="tenant">
+        </div>
+        <div class="col-4">
+          <input type="text" class="form-control" placeholder="client id">
+        </div>
+        <div class="col-4">
+          <input type="text" class="form-control" placeholder="client secret">
+        </div>
+        <button class="btn btn-outline-primary" type="button" @click="addTenant()">新增</button>
+      </div>
       <table class="table mt-2">
         <thead>
           <tr class="row">
@@ -27,14 +39,14 @@
           </tr>
         </tbody>
       </table>
-      <tenant-modal v-if="showTenantModal" @close="showTenantModal = false"></tenant-modal>
+      <!-- <tenant-modal v-if="showTenantModal" @close="showTenantModal = false"></tenant-modal> -->
     </div>
   </div>
 </template>
 
 <script>
 import Navigation from './Navigation'
-import TenantModal from './TenantModal'
+// import TenantModal from './TenantModal'
 
 export default {
   data () {
@@ -43,8 +55,13 @@ export default {
     }
   },
   components: {
-    Navigation,
-    TenantModal
+    Navigation
+    // TenantModal
+  },
+  methods: {
+    addTenant: function () {
+
+    }
   }
 }
 </script>
@@ -53,5 +70,8 @@ export default {
 <style scoped>
   table {
     color: #fff;
+  }
+  input {
+    background-color: #1C2531
   }
 </style>
